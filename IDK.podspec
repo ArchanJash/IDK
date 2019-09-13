@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "IDK"
 
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
 
   spec.summary      = "A short IDK."
 
@@ -38,7 +38,7 @@ spec.description  = "This CocoaPods library helps you perform calculation."
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-spec.dependency 'Alamofire'
+
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
@@ -133,6 +133,6 @@ spec.ios.deployment_target = "12.1"
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency 'Alamofire'
 
 end
