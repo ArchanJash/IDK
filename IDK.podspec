@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "IDK"
 
-  spec.version      = "0.0.12"
+  spec.version      = "0.0.13"
 
   spec.summary      = "A short IDK."
 
@@ -134,5 +134,7 @@ spec.ios.deployment_target = "12.1"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Alamofire'
-
+    spec.resource_bundles = {
+    'IDK' => ['Pod/Classes/**/*.{storyboard,xib}']
+    }
 end
