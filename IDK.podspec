@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.10"
   spec.summary      = "A short IDK."
 
   # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ spec.description  = "This CocoaPods library helps you perform calculation."
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
+spec.dependency 'Alamofire'
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
