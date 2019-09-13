@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import IDK
+
+
 
 class IDKTests: XCTestCase {
 
