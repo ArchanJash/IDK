@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "IDK"
 
-  spec.version      = "0.0.14"
+  spec.version      = "0.0.15"
 
   spec.summary      = "A short IDK."
 

@@ -11,7 +11,7 @@
 		44E3DE68232BA0820062DAC7 /* IDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DE67232BA0820062DAC7 /* IDKTests.swift */; };
 		44E3DE6A232BA0820062DAC7 /* IDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E3DE5C232BA0820062DAC7 /* IDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44E3DE74232BA21F0062DAC7 /* IDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DE73232BA21F0062DAC7 /* IDK.swift */; };
-		44E3DE76232BA98C0062DAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E3DE75232BA98C0062DAC7 /* Main.storyboard */; };
+		44E3DE76232BA98C0062DAC7 /* IDK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E3DE75232BA98C0062DAC7 /* IDK.storyboard */; };
 		44E3DEEE232BAE340062DAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DEED232BAE340062DAC7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		44E3DE67232BA0820062DAC7 /* IDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDKTests.swift; sourceTree = "<group>"; };
 		44E3DE69232BA0820062DAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E3DE73232BA21F0062DAC7 /* IDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDK.swift; sourceTree = "<group>"; };
-		44E3DE75232BA98C0062DAC7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		44E3DE75232BA98C0062DAC7 /* IDK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDK.storyboard; sourceTree = "<group>"; };
 		44E3DEED232BAE340062DAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +80,7 @@
 				44E3DE5C232BA0820062DAC7 /* IDK.h */,
 				44E3DE5D232BA0820062DAC7 /* Info.plist */,
 				44E3DE73232BA21F0062DAC7 /* IDK.swift */,
-				44E3DE75232BA98C0062DAC7 /* Main.storyboard */,
+				44E3DE75232BA98C0062DAC7 /* IDK.storyboard */,
 				44E3DEED232BAE340062DAC7 /* ViewController.swift */,
 			);
 			path = IDK;
@@ -187,7 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E3DE76232BA98C0062DAC7 /* Main.storyboard in Resources */,
+				44E3DE76232BA98C0062DAC7 /* IDK.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
